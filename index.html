@@ -1,3 +1,164 @@
-<h1> Hello World </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Party Drinks Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            color: #fff;
+        }
 
-<b>this is bold</b> test test
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        main {
+            padding: 1rem;
+        }
+
+        .drink-category {
+            margin-bottom: 2rem;
+        }
+
+        .drink {
+            background-color: #333;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+
+        .drink h3 {
+            color: #fff;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 1rem 0;
+        }
+
+        .frame {
+            border: 3px solid #f0f;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #f0f, 0 0 40px #0ff, 0 0 60px #f0f, 0 0 80px #0ff, 0 0 100px #f0f;
+            margin: 1rem;
+            animation: neon-blink 1s infinite alternate;
+        }
+
+        @keyframes neon-blink {
+            from {
+                border-color: #f0f;
+            }
+            to {
+                border-color: #0ff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎉 Ultimate Party Drinks Menu 🍹</h1>
+    </header>
+    <main class="frame">
+         <section class="drink-category">
+            <h2>🍹 Aperol Spritz 🍹</h2>
+            <div class="drink">
+                <h3>Aperol Spritz</h3>
+                <p><strong>Ingredients:</strong> Aperol, Prosecco, Soda Water, Orange Slice</p>
+                <p><strong>Instructions:</strong> Fill a wine glass with ice. Add 3 parts Prosecco, 2 parts Aperol, and a splash of soda water. Stir gently and garnish with an orange slice.</p>
+            </div>
+        </section>
+        <section class="drink-category">
+            <h2>🍷 Prosecco Delights 🍷</h2>
+            <div class="drink">
+                <h3>Prosecco Sangria</h3>
+                <p><strong>Ingredients:</strong> Prosecco, Sangria</p>
+                <p><strong>Instructions:</strong> Fill a glass halfway with Sangria. Top up with Prosecco. Stir gently and garnish with a slice of orange.</p>
+            </div>
+            <div class="drink">
+                <h3>Wild Berry Spritz</h3>
+                <p><strong>Ingredients:</strong> Prosecco Rosé, Wild Berry Schweppes</p>
+                <p><strong>Instructions:</strong> Fill a glass with ice. Add 2 parts Prosecco Rosé. Add 1 part Wild Berry Schweppes. Stir gently and garnish with fresh berries.</p>
+            </div>
+            <div class="drink">
+                <h3>Prosecco Lemonade</h3>
+                <p><strong>Ingredients:</strong> Prosecco, Bitter Lemon Schweppes</p>
+                <p><strong>Instructions:</strong> Fill a glass with ice. Add 2 parts Prosecco. Add 1 part Bitter Lemon Schweppes. Stir gently and garnish with a lemon slice.</p>
+            </div>
+            <div class="drink">
+                <h3>Prosecco Royale</h3>
+                <p><strong>Ingredients:</strong> Prosecco, Splash of Wild Berry Schweppes</p>
+                <p><strong>Instructions:</strong> Pour Prosecco into a flute glass. Add a splash of Wild Berry Schweppes. Garnish with a fresh berry.</p>
+            </div>
+            <div class="drink">
+                <h3>Classic Mimosa</h3>
+                <p><strong>Ingredients:</strong> Prosecco, Orange Juice</p>
+                <p><strong>Instructions:</strong> Fill a glass halfway with Prosecco. Top up with Orange Juice. Stir gently and garnish with an orange slice.</p>
+            </div>
+            <div class="drink">
+                <h3>Rosé Spritz</h3>
+                <p><strong>Ingredients:</strong> Rosé Prosecco, Bitter Lemon Schweppes</p>
+                <p><strong>Instructions:</strong> Fill a glass with ice. Add 2 parts Rosé Prosecco. Add 1 part Bitter Lemon Schweppes. Stir gently and garnish with a lemon slice.</p>
+            </div>
+            <div class="drink">
+                <h3>Fruit Juice Mimosa</h3>
+                <p><strong>Ingredients:</strong> Prosecco, Your Choice of Fruit Juice</p>
+                <p><strong>Instructions:</strong> Fill a glass halfway with Prosecco. Top up with your choice of fruit juice. Stir gently and garnish with a slice of matching fruit.</p>
+            </div>
+        </section>
+        <section class="drink-category">
+            <h2>🍺 Beer Blends 🍺</h2>
+            <div class="drink">
+                <h3>Beer Shandy</h3>
+                <p><strong>Ingredients:</strong> Mönchshof Hell Beer, Lemonade or Bitter Lemon Schweppes</p>
+                <p><strong>Instructions:</strong> Fill a glass halfway with beer. Top up with Lemonade or Bitter Lemon Schweppes. Stir gently and garnish with a lemon slice.</p>
+            </div>
+            <div class="drink">
+                <h3>Beer and Berry Shandy</h3>
+                <p><strong>Ingredients:</strong> Mönchshof Hell Beer, Wild Berry Schweppes</p>
+                <p><strong>Instructions:</strong> Fill a glass halfway with beer. Top up with Wild Berry Schweppes. Stir gently and garnish with a berry.</p>
+            </div>
+        </section>
+        <section class="drink-category">
+            <h2>🍾 Sparkling Wine Treats 🍾</h2>
+            <div class="drink">
+                <h3>Ginger Ale Sparkler</h3>
+                <p><strong>Ingredients:</strong> Sparkling Wine, Ginger Ale Schweppes</p>
+                <p><strong>Instructions:</strong> Fill a glass with ice. Add 2 parts Sparkling Wine. Add 1 part Ginger Ale Schweppes. Stir gently and garnish with a slice of lime.</p>
+            </div>
+            <div class="drink">
+                <h3>Sparkling Wine Cooler</h3>
+                <p><strong>Ingredients:</strong> Sparkling Wine, Ginger Ale Schweppes</p>
+                <p><strong>Instructions:</strong> Fill a glass with ice. Add 2 parts Sparkling Wine.</p>
+</div>
+</section>
+<section class="drink-category">
+<h2>🍹 Sangria Specials 🍹</h2>
+<div class="drink">
+<h3>Sangria Cooler</h3>
+<p><strong>Ingredients:</strong> Sangria, Ginger Ale Schweppes</p>
+<p><strong>Instructions:</strong> Fill a glass with ice. Add 1 part Sangria. Add 1 part Ginger Ale Schweppes. Stir gently and garnish with a slice of orange.</p>
+</div>
+</section>
+</main>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const frame = document.querySelector(".frame");
+        frame.addEventListener("animationiteration", function() {
+            this.style.borderColor = this.style.borderColor === "#f0f" ? "#0ff" : "#f0f";
+        });
+    });
+</script>
+</body>
+</html>
